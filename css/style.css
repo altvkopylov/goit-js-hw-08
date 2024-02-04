@@ -1,0 +1,28 @@
+body .container {
+    max-width: 1128px;
+    margin: 24px auto;
+}
+
+.gallery {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.gallery-item {
+    width: 360px;
+    height: 200px;
+    transition: transform 0.3s ease;
+    list-style: none;
+}
+
+.gallery-item:hover {
+    transform: scale(1.04);
+}
+
+.gallery-image {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
